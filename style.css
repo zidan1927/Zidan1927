@@ -1,0 +1,311 @@
+/* style.css */
+
+/* Umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #e4af00 !important; /* Warna latar belakang navbar */
+  padding: 10px 0; /* Padding atas dan bawah */
+}
+
+.navbar-brand {
+  color: rgb(255, 191, 0) !important; /* Warna teks brand */
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border-color: white !important; /* Warna border toggler */
+}
+
+.navbar-toggler-icon {
+  background-color: white !important; /* Warna icon toggler */
+}
+
+.navbar-nav .nav-link {
+  color: white !important; /* Warna link */
+  margin-left: 10px; /* Jarak antar link */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ddd !important; /* Warna link saat hover */
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold; /* Style untuk link yang aktif */
+}
+
+/* Tambahan jika diperlukan */
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.jumbotron {
+  background-color: #f8f9fa; /* Warna latar belakang jumbotron (abu-abu muda) */
+  padding: 2rem 1rem; /* Padding atas, bawah, kiri, dan kanan */
+  text-align: center; /* Teks rata tengah */
+  margin-bottom: 2rem; /* Margin bawah */
+}
+
+.jumbotron img {
+  width: 200px; /* Lebar gambar */
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+  margin-bottom: 1rem; /* Margin bawah gambar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek shadow pada gambar */
+}
+
+.jumbotron h1 {
+  font-size: 2.5rem; /* Ukuran font judul */
+  font-weight: bold; /* Tebal font */
+  margin-bottom: 0.5rem; /* Margin bawah judul */
+}
+
+.jumbotron p.lead {
+  font-size: 1.25rem; /* Ukuran font teks lead */
+  font-style: italic; /* Teks miring */
+}
+
+/* About */
+#about {
+  padding: 4rem 0; /* Padding atas dan bawah */
+}
+
+#about h2 {
+  font-size: 2rem; /* Ukuran font judul bagian About */
+  font-weight: bold; /* Tebal font */
+  text-align: center; /* Teks rata tengah */
+  margin-bottom: 2rem; /* Margin bawah judul */
+}
+
+#about p {
+  font-size: 1.1rem; /* Ukuran font paragraf */
+  line-height: 1.6; /* Tinggi baris */
+  margin-bottom: 1rem; /* Margin bawah paragraf */
+}
+
+/* Tambahan (jika diperlukan) */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Galeri / Project */
+#project {
+  padding: 4rem 0; /* Padding atas dan bawah */
+  background-color: #f8f9fa; /* Warna latar belakang (abu-abu muda) */
+}
+
+#project h2 {
+  font-size: 2.5rem; /* Ukuran font judul */
+  font-weight: bold; /* Tebal font */
+  text-align: center; /* Teks rata tengah */
+  margin-bottom: 2rem; /* Margin bawah judul */
+  color: #333; /* Warna teks judul */
+}
+
+.card {
+  border: none; /* Menghilangkan border card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek shadow pada card */
+  transition: transform 0.3s ease; /* Efek transisi saat di-hover */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Membuat card sedikit naik saat di-hover */
+}
+
+.card-img-top {
+  width: 100%; /* Lebar gambar 100% */
+  height: 200px; /* Tinggi gambar (sesuaikan) */
+  object-fit: cover; /* Memotong atau menyesuaikan gambar agar pas */
+}
+
+.card-body {
+  padding: 1.5rem; /* Padding di dalam card body */
+}
+
+.card-text {
+  font-size: 1rem; /* Ukuran font teks */
+  color: #555; /* Warna teks */
+}
+
+/* Tambahan (jika diperlukan) */
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.row {
+  display: flex; /* Mengaktifkan flexbox untuk baris */
+  flex-wrap: wrap; /* Memungkinkan card untuk wrap ke baris baru */
+  justify-content: center; /* Membuat card rata tengah horizontal */
+}
+
+.col-md-4 {
+    width: 50%;
+    padding: 0.5rem;
+}
+
+/* Pesan (Form) */
+#pesan {
+  padding: 4rem 0; /* Padding atas dan bawah */
+}
+
+#pesan h2 {
+  font-size: 2.5rem; /* Ukuran font judul */
+  font-weight: bold; /* Tebal font */
+  text-align: center; /* Teks rata tengah */
+  margin-bottom: 2rem; /* Margin bawah judul */
+  color: #333; /* Warna teks judul */
+}
+
+#pesan .form-label {
+  font-weight: bold; /* Tebal font untuk label */
+  margin-top: 1rem; /* Margin atas untuk label */
+}
+
+#pesan .form-control {
+  margin-bottom: 1.5rem; /* Margin bawah untuk input/textarea */
+  border-radius: 0.25rem; /* Border radius untuk input/textarea */
+}
+
+#pesan .btn-primary {
+  background-color: #007bff; /* Warna latar belakang tombol */
+  border-color: #007bff; /* Warna border tombol */
+}
+
+#pesan .btn-primary:hover {
+  background-color: #0069d9; /* Warna latar belakang tombol saat hover */
+  border-color: #0062cc; /* Warna border tombol saat hover */
+}
+
+#pesan .alert-success {
+  margin-top: 2rem; /* Margin atas untuk alert */
+}
+
+/* Tambahan (jika diperlukan) */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Reset default margin & padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background dan layout */
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Section form */
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 40px 20px;
+}
+
+.form-container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 10px;
+  color: #b39277;
+  font-size: 28px;
+}
+
+.form-container p {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+/* Input dan Textarea */
+form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #444;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #b39277;
+  box-shadow: 0 0 5px rgba(179, 146, 119, 0.4);
+}
+
+/* Tombol */
+button {
+  background-color: #b39277;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #967b61;
+}
+
+/* Footer */
+footer {
+  background-color: #b39277;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+footer a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffe7c7;
+}
+
+/* Responsif untuk HP */
+@media (max-width: 576px) {
+  .form-container {
+    padding: 30px 20px;
+  }
+
+  .form-container h2 {
+    font-size: 24px;
+  }
+}
